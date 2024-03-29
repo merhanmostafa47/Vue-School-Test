@@ -9,7 +9,8 @@ export default defineNuxtConfig({
   // ============ Modules Registeration ============ //
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@nuxt/image',
   ],
 
   // ============ Modules Configurations ============ //
@@ -28,5 +29,17 @@ export default defineNuxtConfig({
       },
     },
     display: 'swap',
+  },
+
+  image: {
+    presets: {
+      default: {
+        modifiers: {
+          format: "webp",
+          fit: "cover",
+          quality: "80",
+        },
+      },
+    },
   },
 })

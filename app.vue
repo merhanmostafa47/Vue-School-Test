@@ -1,5 +1,9 @@
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-  </div>
+  <main class="bg-main-bg">
+    <h1
+      class="text-3xl text-semibol gradient-text"
+    >
+      Training
+    </h1>
+  </main>
 </template>

@@ -7,3 +7,9 @@
     font-family: "Rubik", sans-serif;
   }
 }
+
+@layer utilities {
+  .gradient-text {
+    @apply inline-block text-transparent bg-gradient-to-r from-main-clr to-secondary-clr bg-clip-text;
+  }
+}

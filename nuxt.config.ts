@@ -8,9 +8,9 @@ export default defineNuxtConfig({
 
   // ============ Modules Registeration ============ //
   modules: [
-    '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     '@nuxt/image',
+    '@nuxt/ui',
     'nuxt-aos'
   ],
 

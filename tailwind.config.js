@@ -6,6 +6,7 @@ export default {
     "./plugins/**/*.{js,ts}",
     "./app.vue",
     "./error.vue",
+    "./app.config.ts"
   ],
   theme: {
     extend: {
@@ -17,7 +18,7 @@ export default {
 
         // Backgrounds colors
         "main-bg": "#212435",
-        "card-bg": "#2B2F44E5",
+        "opacity-bg": "#2B2F44E5",
 
         // Text colors
         "default-clr": "#F3F5FF",

@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/google-fonts',
     '@nuxt/image',
+    'nuxt-icon',
     '@nuxt/ui',
     'nuxt-aos'
   ],
@@ -65,7 +66,11 @@ export default defineNuxtConfig({
   },
 
   // ============ General Configurations ============ //
-
+  colorMode: {
+    classSuffix: '',
+    preference: 'light'
+  },
+  
   typescript: {
     shim: false,
   },

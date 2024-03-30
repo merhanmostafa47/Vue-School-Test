@@ -18,6 +18,7 @@
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.2.0",
-    "nuxt-aos": "^1.2.4"
+    "nuxt-aos": "^1.2.4",
+    "nuxt-icon": "^0.6.10"
   }
 }

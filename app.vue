@@ -5,12 +5,12 @@ useSeoMeta({
     "School is the #1 training resource for Vue.js and has provided the most comprehensive Vue.js video library in the world to over 140,000 developers.",
 
   // OpenGraph Meta Tags
-  ogTitle: "Vue School",
+  ogTitle: "Vue School.io",
   ogDescription:
-  "School is the #1 training resource for Vue.js and has provided the most comprehensive Vue.js video library in the world to over 140,000 developers.",
-  ogSiteName: "Vue School",
+    "School is the #1 training resource for Vue.js and has provided the most comprehensive Vue.js video library in the world to over 140,000 developers.",
+  ogSiteName: "Vue School.io",
   ogImage: "/images/logo.svg",
-  ogUrl: "https://vue-school.com/",  // TODO: Update URL
+  ogUrl: "https://vue-school.com/", // TODO: Update URL
   ogType: "website",
 
   // Twitter Meta Tags
@@ -23,7 +23,14 @@ useSeoMeta({
 
 useHead({
   htmlAttrs: { lang: "en" },
-  link: [{ rel: "canonical", href: "https://vue-school.com/" }],  // TODO: Update URL
+  link: [{ rel: "canonical", href: "https://vue-school.com/" }], // TODO: Update URL
+  link: [
+    {
+      rel: "icon",
+      type: "image/ico",
+      href: "/favicon.ico",
+    },
+  ],
 });
 </script>
 <template>

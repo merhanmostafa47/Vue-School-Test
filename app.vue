@@ -7,9 +7,10 @@ useSeoMeta({
   // OpenGraph Meta Tags
   ogTitle: "Vue School",
   ogDescription:
-    "School is the #1 training resource for Vue.js and has provided the most comprehensive Vue.js video library in the world to over 140,000 developers.",
+  "School is the #1 training resource for Vue.js and has provided the most comprehensive Vue.js video library in the world to over 140,000 developers.",
+  ogSiteName: "Vue School",
   ogImage: "/images/logo.svg",
-  ogUrl: "https://vue-school.com/",
+  ogUrl: "https://vue-school.com/",  // TODO: Update URL
   ogType: "website",
 
   // Twitter Meta Tags
@@ -22,7 +23,7 @@ useSeoMeta({
 
 useHead({
   htmlAttrs: { lang: "en" },
-  link: [{ rel: "canonical", href: "https://vue-school.com/" }],
+  link: [{ rel: "canonical", href: "https://vue-school.com/" }],  // TODO: Update URL
 });
 </script>
 <template>

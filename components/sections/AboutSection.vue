@@ -10,11 +10,11 @@ const props = defineProps({
 
 <template>
   <div
-    class="relative py-32 after:absolute after:content-[''] after:bg-[url('/images/shapes/shape-1.svg')] after:h-full after:w-full after:bg-coverv after:bg-no-repeat after:inset-0 before:absolute before:content-[''] before:bg-[url('/images/shapes/shape-2.svg')] before:h-full before:w-full before:bg-coverv before:bg-no-repeat before:inset-0"
+    class="relative py-32 after:absolute after:content-[''] after:bg-[url('/images/shapes/shape-1.svg')] after:h-full after:w-full after:bg-coverv after:bg-no-repeat after:inset-0 before:absolute before:content-[''] before:bg-[url('/images/shapes/shape-2.svg')] before:h-full before:w-full before:bg-coverv before:bg-no-repeat before:inset-0 after:z-0 before:z-0 z-10"
   >
-    <UContainer>
+    <UContainer class="relative z-10">
       <!-- Start:: Section Content -->
-      <div class="relative z-10 card-container">
+      <div class="card-container">
         <div
           class="flex flex-col items-center gap-6 py-16 md:items-start lg:items-center md:gap-10 card md:flex-row"
         >
@@ -49,26 +49,13 @@ const props = defineProps({
       </div>
       <!-- End:: Section Content -->
 
-      <!-- Start:: partners Content -->
-      <div class="hidden my-16 lg:block">
-        <NuxtMarquee :autoFill="true" :speed="20" :pauseOnHover="true">
-          <NuxtImg
-            v-for="(partner, idx) in sectionData.partners"
-            :key="idx"
-            :placeholder="[60, 8]"
-            :src="partner.img"
-            width="118"
-            height="40"
-            loading="lazy"
-            fit="contain"
-            quality="80"
-            :alt="partner.name"
-            :title="partner.name"
-            class="mx-8"
-          />
-        </NuxtMarquee>
-      </div>
-      <!-- End:: partners Content -->
+      <!-- Start:: Partners Section -->
+      <PartnersSection :section-data="sectionData.partners" />
+      <!-- End:: Partners Section -->
+
+      <!-- Start:: About Section -->
+      <StatisticsSection :section-data="sectionData.statistics" />
+      <!-- End:: About Section -->
     </UContainer>
   </div>
 </template>

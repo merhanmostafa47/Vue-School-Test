@@ -11,5 +11,7 @@ import { dummyData } from "@/helpers/dummyData";
     <!-- Start:: About Section -->
     <AboutSection :section-data="dummyData.about" />
     <!-- End:: About Section -->
+
+
   </main>
 </template>

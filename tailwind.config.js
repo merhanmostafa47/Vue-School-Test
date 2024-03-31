@@ -19,6 +19,7 @@ export default {
         // Backgrounds colors
         "main-bg": "#212435",
         "opacity-bg": "#2B2F44E5",
+        "btn-bg":'#0BD88F',
 
         // Text colors
         "default-clr": "#F3F5FF",

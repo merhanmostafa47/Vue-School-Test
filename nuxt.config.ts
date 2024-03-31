@@ -31,18 +31,6 @@ export default defineNuxtConfig({
     display: 'swap',
   },
 
-  image: {
-    presets: {
-      default: {
-        modifiers: {
-          format: "webp",
-          fit: "cover",
-          quality: "80",
-        },
-      },
-    },
-  },
-
   aos: {
     // Global settings:
     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function

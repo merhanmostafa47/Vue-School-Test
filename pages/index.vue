@@ -1,7 +1,11 @@
+<script setup>
+import { dummyData } from "@/helpers/dummyData";
+</script>
+
 <template>
-  <div>
-    <UContainer>
-      <h1>Home Page</h1>
-    </UContainer>
-  </div>
+  <main>
+    <!-- Start:: Hero Section -->
+    <HeroSection :section-data="dummyData.hero" />
+    <!-- End:: Hero Section -->
+  </main>
 </template>

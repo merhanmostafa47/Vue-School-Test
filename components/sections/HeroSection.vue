@@ -11,7 +11,7 @@ const props = defineProps({
 <template>
   <div>
     <UContainer>
-      <div class="grid items-center grid-cols-1 py-8 lg:grid-cols-2 gap-14">
+      <div class="grid items-center grid-cols-1 pt-8 lg:grid-cols-2 gap-14">
         <!-- Start:: Section Content -->
         <div class="flex flex-col items-center lg:items-start gap-y-10">
           <h1
@@ -28,7 +28,7 @@ const props = defineProps({
         <!-- End:: Section Content -->
 
         <!-- Start:: Section Image -->
-        <div>
+        <div class="mx-auto">
           <NuxtImg
             :placeholder="[60, 8]"
             :src="sectionData.img"

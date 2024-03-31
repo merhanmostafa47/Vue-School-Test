@@ -12,7 +12,8 @@ export default defineNuxtConfig({
     '@nuxt/image',
     'nuxt-icon',
     '@nuxt/ui',
-    'nuxt-aos'
+    'nuxt-aos',
+    "nuxt-marquee"
   ],
 
   // ============ Modules Configurations ============ //

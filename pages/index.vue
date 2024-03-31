@@ -7,5 +7,9 @@ import { dummyData } from "@/helpers/dummyData";
     <!-- Start:: Hero Section -->
     <HeroSection :section-data="dummyData.hero" />
     <!-- End:: Hero Section -->
+
+    <!-- Start:: About Section -->
+    <AboutSection :section-data="dummyData.about" />
+    <!-- End:: About Section -->
   </main>
 </template>

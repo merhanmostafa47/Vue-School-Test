@@ -23,8 +23,8 @@ useSeoMeta({
 
 useHead({
   htmlAttrs: { lang: "en" },
-  link: [{ rel: "canonical", href: "https://vue-school-test.vercel.app/" }],
   link: [
+    { rel: "canonical", href: "https://vue-school-test.vercel.app/" },
     {
       rel: "icon",
       type: "image/ico",

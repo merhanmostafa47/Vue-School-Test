@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Rubik", sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply inline text-transparent bg-gradient-to-r from-primary to-secondary-clr bg-clip-text;
+  }
+
+  .btn {
+    @apply px-10 py-5 bg-btn-bg text-dark-clr rounded-[10px] from-[#0bd88f] to-[#00C2FF] font-medium hover:bg-gradient-to-b transition-all duration-300 hover:shadow-[0_0_25px_5px_rgba(11,216,143,0.3)];
+  }
+
+  .card-container {
+    @apply h-fit p-[1px] rounded-[30px] overflow-hidden bg-gradient-to-b from-white/20 to-white/0;
+
+    .card {
+      @apply bg-[rgba(43,47,68,0.9)] rounded-[30px] p-6 md:px-6 md:py-10 lg:p-10;
+    }
+  }
+}

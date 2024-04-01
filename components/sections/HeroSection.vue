@@ -9,7 +9,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div>
+  <section>
     <UContainer>
       <div class="grid items-center grid-cols-1 pt-8 lg:grid-cols-2 gap-14">
         <!-- Start:: Section Content -->
@@ -46,5 +46,5 @@ const props = defineProps({
         <!-- End:: Section Image -->
       </div>
     </UContainer>
-  </div>
+  </section>
 </template>

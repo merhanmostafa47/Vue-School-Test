@@ -9,7 +9,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div
+  <section
     class="relative py-32 after:absolute after:content-[''] after:bg-[url('/images/shapes/shape-1.svg')] after:h-full after:w-full after:bg-coverv after:bg-no-repeat after:inset-0 before:absolute before:content-[''] before:bg-[url('/images/shapes/shape-2.svg')] before:h-full before:w-full before:bg-coverv before:bg-no-repeat before:inset-0 after:z-0 before:z-0 z-10"
   >
     <UContainer class="relative z-10">
@@ -57,5 +57,5 @@ const props = defineProps({
       <StatisticsSection :section-data="sectionData.statistics" />
       <!-- End:: About Section -->
     </UContainer>
-  </div>
+  </section>
 </template>

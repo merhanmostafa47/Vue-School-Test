@@ -30,7 +30,7 @@ const rangeUIConfig = {
 </script>
 
 <template>
-  <div
+  <section
     class="py-12 relative before:absolute after:absolute after:content-[''] after:bg-[url('/images/shapes/shape-3.svg')] after:w-full after:bg-cover after:bg-no-repeat after:inset-0 after:top-0 md:after:top-[4%] lg:after:top-[8%] before:content-[''] before:bg-[url('/images/shapes/shape-4.svg')] before:w-full before:top-[22%] md:before:top-[26%] lg:before:top-[35%] before:bg-cover before:bg-no-repeat before:inset-0 after:z-0 before:z-0 z-10"
   >
     <UContainer class="relative z-10">
@@ -218,5 +218,5 @@ const rangeUIConfig = {
       </div>
       <!-- End:: Section Content -->
     </UContainer>
-  </div>
+  </section>
 </template>

@@ -162,6 +162,7 @@ const rangeUIConfig = {
                     :min="min"
                     :max="max"
                     :ui="rangeUIConfig"
+                    aria-label="range slider"
                   />
                   <div class="flex items-center justify-between mt-2">
                     <span class="text-sm font-medium text-grey-clr">{{

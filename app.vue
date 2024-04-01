@@ -23,12 +23,27 @@ useSeoMeta({
 
 useHead({
   htmlAttrs: { lang: "en" },
+  meta: [{
+    name: 'theme-color',
+    content: '#212435'
+  }],
   link: [
     { rel: "canonical", href: "https://vue-school-test.vercel.app/" },
     {
       rel: "icon",
-      type: "image/ico",
       href: "/favicon.ico",
+      sizes: "any",
+    },
+    {
+      rel: "icon",
+      href: "/icon.png",
+      sizes: "32x32",
+      type: "image/png",
+    },
+    {
+      rel: "apple-touch-icon",
+      href: "/apple-icon.png",
+      sizes: "180x180",
     },
   ],
 });

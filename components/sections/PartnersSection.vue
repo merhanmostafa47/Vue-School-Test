@@ -10,7 +10,7 @@ const props = defineProps({
 
 <template>
   <div class="hidden my-16 lg:block">
-    <NuxtMarquee :autoFill="true" :speed="20" :pauseOnHover="true">
+    <NuxtMarquee :speed="20" :pauseOnHover="true">
       <NuxtImg
         v-for="(item, idx) in sectionData"
         :key="idx"

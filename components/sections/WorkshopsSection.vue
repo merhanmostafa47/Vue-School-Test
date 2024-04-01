@@ -96,9 +96,9 @@ const props = defineProps({
 
               <!--  Start: Workshop details  -->
               <div>
-                <h4 class="mb-3 text-2xl font-medium text-default-clr">
+                <h3 class="mb-3 text-2xl font-medium text-default-clr">
                   {{ item.title }}
-                </h4>
+                </h3>
                 <p
                   class="text-sm/relaxed text-grey-clr group-hover:text-default-clr"
                 >
@@ -120,9 +120,9 @@ const props = defineProps({
                   :alt="`${item.instructor} photo`"
                   :title="`${item.instructor} photo`"
                 />
-                <h5 class="text-sm text-grey-clr group-hover:text-default-clr">
+                <h4 class="text-sm text-grey-clr group-hover:text-default-clr">
                   {{ item.instructor }}
-                </h5>
+                </h4>
               </div>
               <!--  End: Workshop Instructor details  -->
             </div>

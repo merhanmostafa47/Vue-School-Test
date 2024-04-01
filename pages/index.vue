@@ -12,6 +12,8 @@ import { dummyData } from "@/helpers/dummyData";
     <AboutSection :section-data="dummyData.about" />
     <!-- End:: About Section -->
 
-
+    <!-- Start:: Pricing Section -->
+    <PricingSection :section-data="dummyData.pricing" />
+    <!-- End:: Pricing Section -->
   </main>
 </template>

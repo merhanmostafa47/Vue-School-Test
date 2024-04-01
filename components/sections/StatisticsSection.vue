@@ -12,7 +12,7 @@ import CountUp from "vue-countup-v3";
 
 <template>
   <div class="py-20">
-    <div class="grid items-center justify-between grid-cols-1 xl:grid-cols-2">
+    <div class="grid items-center justify-between grid-cols-1 gap-y-8 xl:grid-cols-2">
       <!-- Start:: Section Title -->
       <div class="flex flex-col items-center xl:items-start gap-y-3">
         <h2

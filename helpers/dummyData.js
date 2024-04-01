@@ -69,4 +69,114 @@ export const dummyData = {
     },
   },
   //  End:: About Section
+
+  pricing: [
+    {
+      icon: "/images/icons/leaf.svg",
+      name: "Basic",
+      features: [
+        {
+          id: 1,
+          title: "All Video Courses",
+          content: "item contnet",
+        },
+        {
+          id: 2,
+          title: "Vue.Js Master class",
+          content: "item contnet",
+        },
+        {
+          id: 3,
+          title: "All Video CoursesDeveloper assist Slack channel",
+          content: "item contnet",
+        },
+        {
+          id: 4,
+          title: "Live Weekly QnA",
+        },
+        {
+          id: 5,
+          title: "1 x ws ticket per license",
+        },
+      ],
+      price: "$50",
+      seats: "12",
+      discount: "26%",
+    },
+    {
+      icon: "/images/icons/rocket.svg",
+      name: "Professional",
+      features: [
+        {
+          id: 1,
+          title: "All Video Courses",
+          content: "item contnet",
+        },
+        {
+          id: 2,
+          title: "Vue.Js Master class",
+          content: "item contnet",
+        },
+        {
+          id: 3,
+          title: "All Video CoursesDeveloper assist Slack channel",
+          content: "item contnet",
+        },
+        {
+          id: 4,
+          title: "Live Weekly QnA",
+          content: "item contnet",
+          featured: true,
+        },
+        {
+          id: 5,
+          title: "1 x ws ticket per license",
+          content: "item contnet",
+          featured: true,
+        },
+      ],
+      featuredCourse: {
+        img: "/images/course-img.png",
+        name: "The Vue 3 Masterclass",
+      },
+      price: "$50",
+      seats: "12",
+      discount: "26%",
+    },
+    {
+      icon: "/images/icons/bolt.svg",
+      name: "Basic",
+      features: [
+        {
+          id: 1,
+          title: "All Video Courses",
+          content: "item contnet",
+        },
+        {
+          id: 2,
+          title: "Vue.Js Master class",
+          content: "item contnet",
+        },
+        {
+          id: 3,
+          title: "All Video CoursesDeveloper assist Slack channel",
+          content: "item contnet",
+        },
+        {
+          id: 4,
+          title: "Live Weekly QnA",
+          content: "item contnet",
+        },
+        {
+          id: 5,
+          title: "4 x Virtual Workshop of your choice",
+          content: "item contnet",
+          featured: true,
+        },
+      ],
+      price: "$50",
+      seats: "12",
+      discount: "26%",
+    },
+  ],
 };

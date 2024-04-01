@@ -6,7 +6,7 @@ export default {
     "./plugins/**/*.{js,ts}",
     "./app.vue",
     "./error.vue",
-    "./app.config.ts"
+    "./app.config.ts",
   ],
   theme: {
     extend: {
@@ -19,10 +19,11 @@ export default {
         // Backgrounds colors
         "main-bg": "#212435",
         "opacity-bg": "#2B2F44E5",
-        "btn-bg":'#0BD88F',
+        "btn-bg": "#0BD88F",
 
         // Text colors
         "default-clr": "#F3F5FF",
+        "light-clr": "#E8E6E6",
         "dark-clr": "#212435",
 
         // Gradient colors

@@ -70,6 +70,7 @@ export const dummyData = {
   },
   //  End:: About Section
 
+  //   Start:: Pricing Section
   pricing: [
     {
       icon: "/images/icons/leaf.svg",
@@ -179,4 +180,54 @@ export const dummyData = {
       discount: "26%",
     },
   ],
+  //   End:: Pricing Section
+
+  //   Start:: Workshops Section
+  workshops: [
+    {
+      id: 1,
+      date: "December 14th - 11:00 AM (GMT-3)",
+      title: "Vue.js Fundamentals",
+      description:
+        "A progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally...",
+      type: "LIVE Training",
+      hours: "15 Hours",
+      instructor: "Steve Popoola",
+      instructor_img: "/images/instructor-img.png",
+    },
+    {
+      id: 2,
+      date: "December 14th - 11:00 AM (GMT-3)",
+      title: "Vue 3 and Composition API",
+      description:
+        "Take a deep dive into the new and exciting features of Vue 3. Learn about Portals, Suspense, Composition API, Fragments, and much much more...",
+      type: "LIVE Training",
+      hours: "15 Hours",
+      instructor: "Steve Popoola",
+      instructor_img: "/images/instructor-img.png",
+    },
+    {
+      id: 3,
+      date: "December 14th - 11:00 AM (GMT-3)",
+      title: "Vue 3 and Composition API",
+      description:
+        "Take a deep dive into the new and exciting features of Vue 3. Learn about Portals, Suspense, Composition API, Fragments, and much much more...",
+      type: "LIVE Training",
+      hours: "15 Hours",
+      instructor: "Steve Popoola",
+      instructor_img: "/images/instructor-img.png",
+    },
+    {
+      id: 4,
+      date: "December 14th - 11:00 AM (GMT-3)",
+      title: "Vue 3 and Composition API",
+      description:
+        "Take a deep dive into the new and exciting features of Vue 3. Learn about Portals, Suspense, Composition API, Fragments, and much much more...",
+      type: "LIVE Training",
+      hours: "15 Hours",
+      instructor: "Steve Popoola",
+      instructor_img: "/images/instructor-img.png",
+    },
+  ],
+  //   End:: Workshops Section
 };

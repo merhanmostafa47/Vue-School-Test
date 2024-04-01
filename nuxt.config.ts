@@ -13,7 +13,8 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/ui',
     'nuxt-aos',
-    "nuxt-marquee"
+    'nuxt-marquee',
+    'nuxt-swiper'
   ],
 
   // ============ Modules Configurations ============ //

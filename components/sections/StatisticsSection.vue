@@ -44,6 +44,7 @@ import CountUp from "vue-countup-v3";
         class="flex items-center justify-center gap-6 md:gap-x-16"
         data-aos="fade-left"
         data-aos-duration="1200"
+        data-aos-delay="1000"
       >
         <div
           v-for="(item, idx) in sectionData.items"

@@ -12,7 +12,6 @@
   "dependencies": {
     "@nuxt/image": "^1.4.0",
     "@nuxt/ui": "^2.15.0",
-    "@nuxtjs/robots": "^3.0.0",
     "nuxt": "^3.11.1",
     "nuxt-swiper": "^1.2.2",
     "vue": "^3.4.21",

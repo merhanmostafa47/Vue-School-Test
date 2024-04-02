@@ -12,13 +12,24 @@ const props = defineProps({
   <section class="py-32">
     <UContainer>
       <!-- Start:: Section Header -->
-      <div class="flex items-center justify-between mb-14 lg:mb-20">
+      <div
+        class="flex items-center justify-between mb-14 lg:mb-20"
+        data-aos="fade-up"
+        data-aos-duration="1200"
+      >
         <h2
           class="text-[40px] font-bold text-center md:text-6xl/snug text-white"
+          data-aos="zoom-in-up"
+          data-aos-duration="1200"
         >
           Available Workshops
         </h2>
-        <NuxtLink class="hidden btn lg:flex" to="/">
+        <NuxtLink
+          class="hidden btn lg:flex"
+          to="/"
+          data-aos="zoom-in-up"
+          data-aos-duration="1200"
+        >
           See all the workshops
         </NuxtLink>
       </div>
@@ -41,9 +52,12 @@ const props = defineProps({
           },
         }"
       >
-        <SwiperSlide v-for="item in sectionData" :key="item.id">
+        <SwiperSlide v-for="(item, idx) in sectionData" :key="item.id">
           <div
             class="rounded-[30px] from-purple-clr/50 to-pink-clr/50 bg-gradient-to-r transition-all group duration-500 ease-linear overflow-hidden hover:from-purple-clr hover:to-pink-clr"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+            :data-aos-delay="idx * 400"
           >
             <!-- Start: Workshop Date -->
             <div class="flex items-center py-6 px-9 gap-x-3">
@@ -133,7 +147,12 @@ const props = defineProps({
       <!-- End:: Workshops Slider -->
 
       <!-- Start::  workshops button in responsive -->
-      <NuxtLink class="flex w-64 mx-auto btn lg:hidden mt-14" to="/">
+      <NuxtLink
+        class="flex w-64 mx-auto btn lg:hidden mt-14"
+        to="/"
+        data-aos="zoom-in-up"
+        data-aos-duration="1200"
+      >
         See all the workshops
       </NuxtLink>
       <!-- End::  workshops button in responsive -->

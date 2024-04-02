@@ -24,6 +24,9 @@ const props = defineProps({
         :alt="item.name"
         :title="item.name"
         class="mx-8"
+        data-aos="zoom-in"
+        data-aos-duration="1200"
+        :data-aos-delay="idx * 400"
       />
     </NuxtMarquee>
   </div>

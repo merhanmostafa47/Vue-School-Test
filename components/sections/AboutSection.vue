@@ -14,11 +14,15 @@ const props = defineProps({
   >
     <UContainer class="relative z-10">
       <!-- Start:: Section Content -->
-      <div class="card-container">
+      <div class="card-container" data-aos="flip-up" data-aos-duration="1200">
         <div
           class="flex flex-col items-center gap-6 py-16 md:items-start lg:items-center md:gap-10 card md:flex-row"
         >
-          <div class="md:min-w-24 lg:min-w-36 lg:mx-14">
+          <div
+            class="md:min-w-24 lg:min-w-36 lg:mx-14"
+            data-aos="zoom-in"
+            data-aos-duration="1400"
+          >
             <NuxtImg
               :placeholder="[60, 8]"
               :src="sectionData.img"
@@ -36,11 +40,15 @@ const props = defineProps({
           <div class="flex flex-col gap-4 md:gap-8">
             <h2
               class="text-2xl font-bold text-white md:text-[40px] text-center md:text-start leading-tight"
+              data-aos="fade-up"
+              data-aos-duration="1400"
             >
               {{ sectionData.title }}
             </h2>
             <p
               class="text-sm md:text-[22px] lg:w-[98%] font-normal !leading-8 text-center text-default-clr md:text-start"
+              data-aos="fade-up"
+              data-aos-duration="1400"
             >
               {{ sectionData.description }}
             </p>

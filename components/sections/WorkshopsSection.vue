@@ -43,7 +43,7 @@ const props = defineProps({
       >
         <SwiperSlide v-for="item in sectionData" :key="item.id">
           <div
-            class="rounded-[30px] from-[rgba(78,8,230,0.5)] to-[rgba(255,73,118,0.5)] bg-gradient-to-r transition-all group duration-500 ease-linear overflow-hidden hover:from-[#4F08E6] hover:to-[#FF4975]"
+            class="rounded-[30px] from-purple-clr/50 to-pink-clr/50 bg-gradient-to-r transition-all group duration-500 ease-linear overflow-hidden hover:from-purple-clr hover:to-pink-clr"
           >
             <!-- Start: Workshop Date -->
             <div class="flex items-center py-6 px-9 gap-x-3">

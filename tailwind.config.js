@@ -27,8 +27,8 @@ export default {
         "dark-clr": "#212435",
 
         // Gradient colors
-        "purple-clr": "#4F08E680",
-        "pink-clr": "#FF497580",
+        "purple-clr": "#4F08E6",
+        "pink-clr": "#FF4975",
       },
     },
   },

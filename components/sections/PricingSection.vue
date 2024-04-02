@@ -36,13 +36,21 @@ const rangeUIConfig = {
     <UContainer class="relative z-10">
       <h3
         class="mx-auto mb-12 md:mb-16 xl:mb-32 text-[40px] font-bold text-center md:text-6xl/snug text-default-clr lg:max-w-[70%]"
+        data-aos="fade-up"
+        data-aos-duration="1200"
       >
         Discounted <span class="gradient-text">Corporate Training</span> Bundles
       </h3>
 
       <!-- Start:: Section Content -->
       <div class="grid justify-center grid-cols-1 gap-8 xl:grid-cols-3">
-        <div class="card-container" v-for="(item, idx) in sectionData">
+        <div
+          class="card-container"
+          v-for="(item, idx) in sectionData"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          :data-aos-delay="idx * 400"
+        >
           <!--  Start:: Pricing Card -->
           <div class="flex flex-col !px-6 gap-y-10 card !py-10">
             <!-- Start:: Card Header -->

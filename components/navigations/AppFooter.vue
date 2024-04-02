@@ -1,22 +1,27 @@
 <script setup>
 const socials = [
   {
+    label: "facebook",
     icon: "mdi:facebook",
     to: "https://facebook.com/",
   },
   {
+    label: "twitter",
     icon: "mdi:twitter",
     to: "https://twitter.com/",
   },
   {
+    label: "github",
     icon: "mdi:github",
     to: "https://github.com/",
   },
   {
+    label: "linkedin",
     icon: "mdi:linkedin",
     to: "https://linkedin.com/",
   },
   {
+    label: "youtube",
     icon: "mdi:youtube",
     to: "https://youtube.com/",
   },
@@ -169,7 +174,11 @@ const footerLinks2 = footerLinks.slice(3, 6);
                 :key="idx"
                 class="w-14 h-14 rounded-full bg-[#2B2F44] flex items-center justify-center group hover:from-[#0bd88f] hover:to-[#00C2FF] transition-all duration-300 ease-in-out hover:shadow-[0_0_25px_5px_rgba(11,216,143,0.3)] hover:bg-gradient-to-r"
               >
-                <NuxtLink :to="social.to" target="_blank">
+                <NuxtLink
+                  :to="social.to"
+                  target="_blank"
+                  :aria-label="`${social.label} social link`"
+                >
                   <Icon
                     :name="social.icon"
                     width="28"

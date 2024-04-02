@@ -14,7 +14,8 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     'nuxt-aos',
     'nuxt-marquee',
-    'nuxt-swiper'
+    'nuxt-swiper',
+    '@nuxtjs/robots',
   ],
 
   // ============ Modules Configurations ============ //
@@ -55,12 +56,17 @@ export default defineNuxtConfig({
     anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
   },
 
+  robots: {
+    UserAgent: '*',
+    Disallow: '/'
+  },
+
   // ============ General Configurations ============ //
   colorMode: {
     classSuffix: '',
     preference: 'light'
   },
-  
+
   typescript: {
     shim: false,
   },

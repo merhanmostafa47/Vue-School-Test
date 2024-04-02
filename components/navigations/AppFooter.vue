@@ -132,7 +132,7 @@ const footerLinks2 = footerLinks.slice(3, 6);
 </script>
 
 <template>
-  <footer>
+  <footer class="py-20">
     <UContainer>
       <div class="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-4">
         <!-- Start:: Footer Logo & Description & Social Links -->

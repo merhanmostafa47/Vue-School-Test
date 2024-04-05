@@ -16,6 +16,7 @@ export default defineNuxtConfig({
     'nuxt-marquee',
     'nuxt-swiper',
     '@nuxtjs/robots',
+    '@nuxtjs/sanity',
   ],
 
   // ============ Modules Configurations ============ //
@@ -59,6 +60,10 @@ export default defineNuxtConfig({
   robots: {
     UserAgent: '*',
     Disallow: '/'
+  },
+
+  sanity: {
+    projectId: 'vdagr1n7'
   },
   
   // ============ General Configurations ============ //

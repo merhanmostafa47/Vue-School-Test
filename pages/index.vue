@@ -1,11 +1,13 @@
 <script setup>
 import { dummyData } from "@/helpers/dummyData";
+const query = groq`*[_type == "data"]`;
+const { data } = useSanityQuery(query);
 </script>
 
 <template>
   <main>
     <!-- Start:: Hero Section -->
-    <HeroSection :section-data="dummyData.hero" />
+    <HeroSection :section-data="data[0].hero" />
     <!-- End:: Hero Section -->
 
     <!-- Start:: About Section -->

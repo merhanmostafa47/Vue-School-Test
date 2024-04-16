@@ -103,6 +103,7 @@ export const dummyData = {
       price: "$50",
       seats: "12",
       discount: "26%",
+      range:12
     },
     {
       icon: "/images/icons/rocket.svg",
@@ -143,6 +144,7 @@ export const dummyData = {
       price: "$50",
       seats: "12",
       discount: "26%",
+      range:10
     },
     {
       icon: "/images/icons/bolt.svg",
@@ -178,6 +180,7 @@ export const dummyData = {
       price: "$50",
       seats: "12",
       discount: "26%",
+      range:15
     },
   ],
   //   End:: Pricing Section

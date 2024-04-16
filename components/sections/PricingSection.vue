@@ -8,7 +8,7 @@ const props = defineProps({
 });
 
 // Range UI Config
-const rangeValue = ref(12);
+const rangeValueRefs = ref(props.sectionData.map((e) => e.range));
 const min = ref(5);
 const max = ref(20);
 
@@ -165,7 +165,7 @@ const rangeUIConfig = {
                   </span>
 
                   <URange
-                    v-model="rangeValue"
+                    v-model="rangeValueRefs[idx]"
                     size="sm"
                     :min="min"
                     :max="max"

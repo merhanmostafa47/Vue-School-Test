@@ -109,6 +109,7 @@ const rangeUIConfig = {
                   <UTooltip
                     :text="feature.content"
                     :popper="{ offsetDistance: 8 }"
+                    v-if="feature.content"
                   >
                     <Icon
                       name="heroicons:exclamation-circle-16-solid"

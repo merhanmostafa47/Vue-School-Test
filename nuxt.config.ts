@@ -16,7 +16,6 @@ export default defineNuxtConfig({
     'nuxt-marquee',
     'nuxt-swiper',
     '@nuxtjs/robots',
-    '@nuxtjs/sanity',
   ],
 
   // ============ Modules Configurations ============ //
